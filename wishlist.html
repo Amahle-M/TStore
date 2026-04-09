@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wishlist — TECH GADGET Store</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Wishlist styles now come entirely from styles.css  -->
+</head>
+
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <h1 class="site-title">TECH GADGET Store</h1>
+    <p class="site-tagline">Getting every tech you need in the rush of innovation.</p>
+  </header>
+
+  <!-- ===== NAVIGATION BAR ===== -->
+  <nav class="navbar">
+    <div class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="brands.html">Featured Brands</a>
+      <a href="cart.html">Shopping Cart</a>
+      <a href="wishlist.html">Wishlist</a>
+    </div>
+    <a href="contactUs.html" class="nav-contact">Contact Us</a>
+  </nav>
+
+  <!-- ===== PAGE LAYOUT:  ===== -->
+  <div class="page-layout">
+
+    <aside class="sidebar">
+      <h3 class="sidebar-title">Categories</h3>
+      <ul class="sidebar-links">
+        <li><a href="smartphones.html">Smartphones &amp; Tablets</a></li>
+        <li><a href="laptops.html">Laptops &amp; Accessories</a></li>
+        <li><a href="gaming.html">Gaming &amp; Entertainment</a></li>
+        <li><a href="smarthome.html">Smart Home Devices</a></li>
+      </ul>
+    </aside>
+
+    <!-- ===== MAIN CONTENT: WISHLIST ===== -->
+    <main class="main-content">
+
+      <!-- Page heading  -->
+      <h2 class="wishlist-page-title">❤️ My Wishlist</h2>
+      <p class="wishlist-page-sub">Your saved items — tick what you want and add to cart when ready.</p>
+
+      <!-- Promo banner -->
+      <div class="promo-banner">
+        <span class="promo-badge">🔥 SALE</span>
+        <span class="promo-text">Up to <strong>30% OFF</strong> on selected items — Limited time only!</span>
+      </div>
+
+      <!-- Section label -->
+      <h3 class="wishlist-section-label">Saved Items</h3>
+      <p class="wishlist-section-desc">
+        Select items below to add to your cart.
+      </p>
+
+      <!-- ===== WISHLIST PRODUCT CARDS GRID ===== -->
+      <div class="wishlist-grid">
+
+        <!-- Card 1: Samsung -->
+        <div class="wishlist-card">
+          <div class="wishlist-img-wrap">
+            <img src="samsung.jpg" alt="Samsung Galaxy S25 Ultra smartphone" class="wishlist-img">
+          </div>
+          <div class="wishlist-card-info">
+            <p class="wishlist-card-name">Samsung Galaxy S25 Ultra</p>
+            <p class="wishlist-card-price">R 18 999</p>
+            <div class="wishlist-card-actions">
+              <input type="checkbox" id="w1" aria-label="Select Samsung Galaxy S25 Ultra">
+              <label for="w1">Save</label>
+              <button class="btn-wishlist-card">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: iPad -->
+        <div class="wishlist-card">
+          <div class="wishlist-img-wrap">
+            <img src="ipad.jpg" alt="Apple iPad Pro M4 tablet" class="wishlist-img">
+          </div>
+          <div class="wishlist-card-info">
+            <p class="wishlist-card-name">Apple iPad Pro M4</p>
+            <p class="wishlist-card-price">R 21 999</p>
+            <div class="wishlist-card-actions">
+              <input type="checkbox" id="w2" aria-label="Select Apple iPad Pro M4">
+              <label for="w2">Save</label>
+              <button class="btn-wishlist-card">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Dell Laptop -->
+        <div class="wishlist-card">
+          <div class="wishlist-img-wrap">
+            <img src="dell.jpg" alt="Dell XPS 15 laptop" class="wishlist-img">
+          </div>
+          <div class="wishlist-card-info">
+            <p class="wishlist-card-name">Dell XPS 15 Laptop</p>
+            <p class="wishlist-card-price">R 32 499</p>
+            <div class="wishlist-card-actions">
+              <input type="checkbox" id="w3" aria-label="Select Dell XPS 15 Laptop">
+              <label for="w3">Save</label>
+              <button class="btn-wishlist-card">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Mouse -->
+        <div class="wishlist-card">
+          <div class="wishlist-img-wrap">
+            <img src="mouse.jpg" alt="Logitech wireless mouse" class="wishlist-img">
+          </div>
+          <div class="wishlist-card-info">
+            <p class="wishlist-card-name">Logitech Wireless Mouse</p>
+            <p class="wishlist-card-price">R 2 199</p>
+            <div class="wishlist-card-actions">
+              <input type="checkbox" id="w4" aria-label="Select Logitech Wireless Mouse">
+              <label for="w4">Save</label>
+              <button class="btn-wishlist-card">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: Razer Headset -->
+        <div class="wishlist-card">
+          <div class="wishlist-img-wrap">
+            <img src="GHeadset.jpg" alt="Razer BlackShark V2 Pro gaming headset" class="wishlist-img">
+          </div>
+          <div class="wishlist-card-info">
+            <p class="wishlist-card-name">Razer BlackShark V2 Pro</p>
+            <p class="wishlist-card-price">R 4 299</p>
+            <div class="wishlist-card-actions">
+              <input type="checkbox" id="w5" aria-label="Select Razer BlackShark V2 Pro Headset">
+              <label for="w5">Save</label>
+              <button class="btn-wishlist-card">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6: PS5 Controller -->
+        <div class="wishlist-card">
+          <div class="wishlist-img-wrap">
+            <img src="dualsensecontroll.jpg" alt="PS5 DualSense wireless controller" class="wishlist-img">
+          </div>
+          <div class="wishlist-card-info">
+            <p class="wishlist-card-name">PS5 DualSense Controller</p>
+            <p class="wishlist-card-price">R 1 499</p>
+            <div class="wishlist-card-actions">
+              <input type="checkbox" id="w6" aria-label="Select PS5 DualSense Controller">
+              <label for="w6">Save</label>
+              <button class="btn-wishlist-card">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </main>
+  </div>
+
+
+  <footer class="site-footer">
+    <div class="footer-ticker">
+      <div class="ticker-track">
+        <span>🔥 30% OFF selected items &nbsp;|&nbsp; 🚚 Free delivery over R500 &nbsp;|&nbsp; 📱 New Samsung Galaxy S25 Ultra in stock &nbsp;|&nbsp; 🎮 PS5 DualSense now on SALE &nbsp;|&nbsp; 💻 Dell XPS 15 — limited units left &nbsp;|&nbsp; ⭐ Rated #1 Tech Store 2026 &nbsp;|&nbsp; 🔥 30% OFF selected items &nbsp;|&nbsp; 🚚 Free delivery over R500 &nbsp;|&nbsp; 📱 New Samsung Galaxy S25 Ultra in stock &nbsp;|&nbsp; 🎮 PS5 DualSense now on SALE &nbsp;|&nbsp; 💻 Dell XPS 15 — limited units left &nbsp;|&nbsp; ⭐ Rated #1 Tech Store 2026 &nbsp;|&nbsp;</span>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 TECH GADGET STORE | Powering Your Tech World</p>
+    <p class="footer-links-row">
+      <a href="contactUs.html">Contact Us</a> &nbsp;|&nbsp;
+      <a href="about.html">About</a> &nbsp;|&nbsp;
+      <a href="wishlist.html">Wishlist</a>
+    </p>
+  </footer>
+
+</body>
+</html>

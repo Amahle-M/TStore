@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TECH GADGET Store</title>
+  <!-- Link to external CSS file  -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ===== TOP HEADER ===== -->
+  <header class="site-header">
+    <h1 class="site-title">TECH GADGET Store</h1>
+    <p class="site-tagline">Getting every tech you need in the rush of innovation.</p>
+  </header>
+
+  <!-- ===== NAVIGATION BAR ===== -->
+  <nav class="navbar">
+    <div class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="brands.html">Featured Brands</a>
+      <a href="cart.html">Shopping Cart</a>
+      <a href="wishlist.html">Wishlist</a>
+    </div>
+    <a href="contactUs.html" class="nav-contact">Contact Us</a>
+  </nav>
+
+  <!-- ===== PAGE LAYOUT: SIDEBAR + MAIN ===== -->
+  <div class="page-layout">
+
+    <!-- ===== LEFT SIDEBAR: CATEGORIES ===== -->
+    <aside class="sidebar">
+      <h3 class="sidebar-title">Categories</h3>
+      <ul class="sidebar-links">
+        <li><a href="smartphones.html">Smartphones &amp; Tablets</a></li>
+        <li><a href="laptops.html">Laptops &amp; Accessories</a></li>
+        <li><a href="gaming.html">Gaming &amp; Entertainment</a></li>
+        <li><a href="smarthome.html">Smart Home Devices</a></li>
+      </ul>
+    </aside>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main class="main-content">
+
+      <h2 class="welcome-heading">Welcome to the Future of Tech</h2>
+      <p class="welcome-text">
+        New tech or old tech — with us you can find it all. At TECH GADGET STORE we bring you the latest gadgets,
+        powerful accessories, and innovative technology to keep you ahead in the digital world.
+      </p>
+
+      <!-- ===== PROMOTIONS BANNER ===== -->
+      <div class="promo-banner">
+        <span class="promo-badge">🔥 SALE</span>
+        <span class="promo-text">Up to <strong>30% OFF</strong> on selected items — Limited time only!</span>
+      </div>
+      <h2 class="section-heading">Browse by Category</h2>
+
+
+      <!-- ===== VIDEO 1 ===== -->
+      <h2 class="section-heading">See Our Latest Picks in Action</h2>
+      <div class="video-wrapper">
+        <video controls autoplay muted loop width="100%" aria-label="Samsung Galaxy S25 Ultra product review video">
+          <source src="video1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p class="video-caption">📱 Samsung Galaxy S25 Ultra – Full Review</p>
+      </div>
+
+      <!-- ===== CATEGORY 1: SMARTPHONES & TABLETS ===== -->
+      <section class="category-section">
+        <h3 class="category-title purple">Smartphones &amp; Tablets</h3>
+        <p>Explore the newest smartphones with advanced cameras and powerful processors.</p>
+
+        <!-- Product grid using Flexbox — 2 cards per row -->
+        <div class="product-grid">
+
+          <!-- Product Card: Samsung -->
+          <a href="samsung.html" class="product-link">
+            <div class="product-card">
+              <span class="badge badge-blue">SALE</span>
+              <div class="product-img-wrap">
+                <img src="samsung.jpg" alt="Samsung Galaxy S25 Ultra smartphone with advanced camera system" class="product-img">
+              </div>
+              <p class="product-name">Samsung Galaxy S25 Ultra</p>
+              <p class="product-price">R 18 999</p>
+              <p class="product-rating" aria-label="Rated 5 out of 5 stars, 12 reviews">★★★★★ (12)</p>
+              <div class="btn-view">View Product</div>
+            </div>
+          </a>
+
+          <!-- Product Card: iPad -->
+          <a href="ipad.html" class="product-link">
+            <div class="product-card">
+              <span class="badge badge-red">NEW</span>
+              <div class="product-img-wrap">
+                <img src="ipad.jpg" alt="Apple iPad Pro M4 tablet with M4 chip" class="product-img">
+              </div>
+              <p class="product-name">Apple iPad Pro M4</p>
+              <p class="product-price">R 21 999</p>
+              <p class="product-rating" aria-label="Rated 4 out of 5 stars, 6 reviews">★★★★☆ (6)</p>
+              <div class="btn-view">View Product</div>
+            </div>
+          </a>
+
+        </div>
+        <a href="smartphones.html" class="browse-link">Browse Category →</a>
+      </section>
+
+
+      <!-- ===== CATEGORY 2: LAPTOPS & ACCESSORIES ===== -->
+      <section class="category-section">
+        <h3 class="category-title blue">Laptops &amp; Accessories</h3>
+        <p>Powerful laptops, keyboards, and accessories for work and study.</p>
+
+        <div class="product-grid">
+
+          <!-- Product Card: Dell -->
+          <a href="dell.html" class="product-link">
+            <div class="product-card">
+              <span class="badge badge-blue">SALE</span>
+              <div class="product-img-wrap">
+                <img src="dell.jpg" alt="Dell XPS 15 high-performance laptop" class="product-img">
+              </div>
+              <p class="product-name">Dell XPS 15 Laptop</p>
+              <p class="product-price">R 32 499</p>
+              <p class="product-rating" aria-label="Rated 4 out of 5 stars, 8 reviews">★★★★☆ (8)</p>
+              <div class="btn-view">View Product</div>
+            </div>
+          </a>
+
+          <!-- Product Card: Mouse -->
+          <a href="mouse.html" class="product-link">
+            <div class="product-card">
+              <span class="badge badge-red">NEW</span>
+              <div class="product-img-wrap">
+                <img src="mouse.jpg" alt="Logitech wireless ergonomic mouse" class="product-img">
+              </div>
+              <p class="product-name">Logitech Mouse</p>
+              <p class="product-price">R 2 199</p>
+              <p class="product-rating" aria-label="Rated 5 out of 5 stars, 19 reviews">★★★★★ (19)</p>
+              <div class="btn-view">View Product</div>
+            </div>
+          </a>
+
+        </div>
+        <a href="laptops.html" class="browse-link">Browse Category →</a>
+      </section>
+
+
+      <!-- ===== VIDEO 2  ===== -->
+      <div class="video-wrapper">
+        <video controls autoplay muted loop width="100%" aria-label="Top Gaming Gear of 2026 showcase video">
+          <source src="video2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p class="video-caption">🎮 Top Gaming Gear of 2026</p>
+      </div>
+
+      <!-- ===== CATEGORY 3: GAMING & ENTERTAINMENT ===== -->
+      <section class="category-section">
+        <h3 class="category-title yellow">Gaming &amp; Entertainment</h3>
+        <p>Level up your gaming with powerful gear and immersive entertainment tech.</p>
+
+        <div class="product-grid">
+
+          <!-- Product Card: Headset -->
+          <a href="headset.html" class="product-link">
+            <div class="product-card">
+              <span class="badge badge-red">NEW</span>
+              <div class="product-img-wrap">
+                <img src="GHeadset.jpg" alt="Razer BlackShark V2 Pro wireless gaming headset" class="product-img">
+              </div>
+              <p class="product-name">Razer Gaming Headset</p>
+              <p class="product-price">R 4 299</p>
+              <p class="product-rating" aria-label="Rated 5 out of 5 stars, 27 reviews">★★★★★ (27)</p>
+              <div class="btn-view">View Product</div>
+            </div>
+          </a>
+
+          <!-- Product Card: Controller -->
+          <a href="controllers.html" class="product-link">
+            <div class="product-card">
+              <span class="badge badge-blue">SALE</span>
+              <div class="product-img-wrap">
+                <img src="dualsensecontroll.jpg" alt="PS5 DualSense wireless controller with haptic feedback" class="product-img">
+              </div>
+              <p class="product-name">PS5 DualSense Controller</p>
+              <p class="product-price">R 1 499</p>
+              <p class="product-rating" aria-label="Rated 5 out of 5 stars, 44 reviews">★★★★★ (44)</p>
+              <div class="btn-view">View Product</div>
+            </div>
+          </a>
+
+        </div>
+        <a href="gaming.html" class="browse-link">Browse Category →</a>
+      </section>
+
+
+      <!-- ===== FOR THE PROS SECTION ===== -->
+      <section class="pros-section">
+        <div class="pros-header">
+          <h2 class="pros-title">⚡ For the Pros</h2>
+          <p class="pros-subtitle">Serious gear for serious gamers. No compromises — only performance.</p>
+        </div>
+
+        <div class="pros-grid">
+          <!-- Pro Pick 1: Cooling Case Fan -->
+          <a href="FanPC_.jpg" class="product-link">
+            <div class="product-card pro-card">
+              <span class="badge badge-red">PRO PICK</span>
+              <div class="product-img-wrap">
+                <img src="FanPC_.jpg" alt="DS Statci Rainbow Light RGB LED Computer case fans" class="product-img">
+              </div>
+              <p class="product-name">DXX-00027 ARGB CASE fans</p>
+              <p class="pro-tag">Sync case cooling fan</p>
+              <p class="product-price">R 7 291</p>
+              <p class="product-rating" aria-label="Rated 5 out of 5 stars">★★★★★ (27)</p>
+              <div class="btn-view btn-pro">View Product</div>
+            </div>
+          </a>
+
+          <!-- Pro Pick 2: Controller -->
+          <a href="controllers.html" class="product-link">
+            <div class="product-card pro-card">
+              <span class="badge badge-blue">SALE</span>
+              <div class="product-img-wrap">
+                <img src="dualsensecontroll.jpg" alt="PS5 DualSense with next-gen haptic feedback technology" class="product-img">
+              </div>
+              <p class="product-name">PS5 DualSense Controller</p>
+              <p class="pro-tag">🕹️ Next-gen haptic feedback</p>
+              <p class="product-price">R 1 499</p>
+              <p class="product-rating" aria-label="Rated 5 out of 5 stars">★★★★★ (44)</p>
+              <div class="btn-view btn-pro">View Product</div>
+            </div>
+          </a>
+
+          <!-- Pro Pick 3: bendable OLED gaming monitor -->
+          <a href="bendableMonitor.jpg" class="product-link">
+            <div class="product-card pro-card">
+              <span class="badge badge-red">PRO PICK</span>
+              <div class="product-img-wrap">
+                <img src="bendableMonitor.jpg" alt="Bendable LG gaming monitor" class="product-img">
+              </div>
+              <p class="product-name">Bendable LG Gaming Monitor</p>
+              <p class="pro-tag">�️ Immersive gaming display</p>
+              <p class="product-price">R 19 999</p>
+              <p class="product-rating" aria-label="Rated 4 out of 5 stars">★★★★☆ (8)</p>
+              <div class="btn-view btn-pro">View Product</div>
+            </div>
+          </a>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+
+  <!-- ===== FOOTER  ===== -->
+  <footer class="site-footer">
+    <div class="footer-ticker">
+      <div class="ticker-track">
+        <span>🔥 30% OFF selected items &nbsp;|&nbsp; 🚚 Free delivery over R500 &nbsp;|&nbsp; 📱 New Samsung Galaxy S25 Ultra in stock &nbsp;|&nbsp; 🎮 PS5 DualSense now on SALE &nbsp;|&nbsp; 💻 Dell XPS 15 — limited units left &nbsp;|&nbsp; ⭐ Rated #1 Tech Store 2026 &nbsp;|&nbsp; 🔥 30% OFF selected items &nbsp;|&nbsp; 🚚 Free delivery over R500 &nbsp;|&nbsp; 📱 New Samsung Galaxy S25 Ultra in stock &nbsp;|&nbsp; 🎮 PS5 DualSense now on SALE &nbsp;|&nbsp; 💻 Dell XPS 15 — limited units left &nbsp;|&nbsp; ⭐ Rated #1 Tech Store 2026 &nbsp;|&nbsp;</span>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 TECH GADGET STORE | Powering Your Tech World</p>
+    <p class="footer-links-row">
+      <a href="contactUs.html">Contact Us</a> &nbsp;|&nbsp;
+      <a href="about.html">About</a> &nbsp;|&nbsp;
+      <a href="wishlist.html">Wishlist</a>
+    </p>
+  </footer>
+
+</body>
+</html>
